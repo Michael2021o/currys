@@ -566,14 +566,5 @@ footer {
   margin-top: 2rem;
   font-size: 1.4rem;
   text-align: center;
-  :root {
-    --line-height-body: 1.8;
-  }
-
-  .lower-text {
-    margin-top: 2rem;
-    font-size: 1.4rem;
-    text-align: center;
-    line-height: var(--line-height-body);
-  }
+  line-height: 1.8;
 }
