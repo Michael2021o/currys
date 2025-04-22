@@ -453,8 +453,8 @@ main {
 }
 
 .popular-product-card:hover {
-  box-shadow: 0 0 0.3rem var(--indigo);
-  transform: scale(1.02);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
