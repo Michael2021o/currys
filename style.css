@@ -429,6 +429,7 @@ main {
 
 .popular-products-section {
   margin-bottom: 9rem;
+  position: relative;
 }
 
 .ppl-heading {
@@ -440,6 +441,9 @@ main {
 
 .popular-products-row {
   gap: 3rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 .popular-product-card {
@@ -450,12 +454,31 @@ main {
   height: 35rem;
   width: 30rem;
   transition: all 0.3s;
+  min-width: 20rem;
 }
 
 .popular-product-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.fa-circle-left {
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 3.4rem;
+  position: absolute;
+  color: var(--indigo);
+  opacity: 0.8;
+}
+
+.fa-circle-right {
+  right: 0 !important;
+  transform: translateY(-50%);
+  font-size: 3.4rem;
+  position: absolute;
+  color: var(--indigo);
+  opacity: 0.8;
 }
 
 .ppl-pdt-box {
